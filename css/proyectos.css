@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{ 
+    background: linear-gradient(to right, rgba(131, 197, 218, 0.363), rgba(134, 236, 197, 0.534), rgba(131, 255, 162, 0.466));
+    font-family: sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+.infopersonal{
+    height: 75%;
+    width: 22%;
+    background-color: rgba(255, 255, 255, 0.842);
+    margin: 30px;
+    margin-top: 8%;
+    border: solid 3px #97979770;
+    border-radius: 15px;
+    
+}
+.imagenpersonal{
+    padding: 5px 0 5px 0;
+}
+.imagenpersonal img{
+    border-radius: 50%;
+}
+.imagenpersonal, h2{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    margin: 2px 11px;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.redes a{
+    text-align: center;
+    font-size: 25px;
+    padding: 8px;
+    border: solid 2px #97979770;
+    border-radius: 30%;
+}
+
+.cartacontacto{
+    text-align: start;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.cartacontacto i{
+    margin-right: 10px;
+}
+
+
+.proyectos{
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.842);
+    border: solid 3px #97979770;
+    border-radius: 10px;
+    margin: 30px;
+    margin-top: 50px;
+
+}
+
+.proyectos2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.cartaproyectos{
+    width: 262px;
+    margin: 15px;
+    border: solid 2px #97979770;
+    border-radius: 10px;
+
+}
+
+.cartaproyectos img{
+    border-radius: 10px 10px 0 0;
+}
+
+.proyectos h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+.iconosnavegador{
+    background-color: rgba(255, 255, 255, 0.842);
+    display: flex;
+    flex-direction: column;
+    border: 3px solid  #97979770;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+.navegador .iconosnavegador a{
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #97979770 ;
+}
+
+a{
+    transition-duration: 1s;
+}
+
+
+.navegador .iconosnavegador a:hover{
+    background: linear-gradient(to right, rgba(131, 197, 218, 0.363), rgba(134, 236, 197, 0.534), rgba(131, 255, 162, 0.466));
+    font-size: 21px;
+}
+
+
+
+.infopersonal .redes a:hover{
+    background: linear-gradient(to right, rgba(131, 197, 218, 0.363), rgba(134, 236, 197, 0.534), rgba(131, 255, 162, 0.466));
+    font-size: 26px;
+}
+
+
+.contacto .cartacontacto a{
+    color: black;
+    text-decoration: none;
+}
+
+.contacto .cartacontacto a:hover{
+    background: linear-gradient(to right, rgb(131, 198, 218), rgb(134, 236, 197), rgb(131, 255, 162));
+    -webkit-background-clip: text;
+    color: transparent;    
+}
+
+
+.fa-facebook-f{
+    color: rgba(57, 77, 255, 0.685);
+}
+.fa-instagram{
+    color: rgba(247, 71, 71, 0.514);
+}
+.fa-twitter{
+    color: rgba(79, 185, 212, 0.692);
+}
+.fa-envelope-open-text{
+    color: rgba(48, 48, 238, 0.541);
+}
+.fa-phone{
+    color: rgba(82, 82, 82, 0.815);
+}
+.fa-location-dot{
+    color: rgba(235, 42, 42, 0.692);
+}
+.fa-user{
+    color: rgba(54, 54, 54, 0.767);
+}
+.fa-flask{
+    background: linear-gradient(to top, #ff2b2b,rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.fa-diagram-project{
+    color: rgba(134, 71, 197, 0.507);
+}
